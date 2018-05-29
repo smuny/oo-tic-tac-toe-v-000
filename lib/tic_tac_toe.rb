@@ -104,7 +104,6 @@ WIN_COMBINATIONS = [
       end
    end
    def play
-<<<<<<< HEAD
       until over?
       turn
     end
@@ -114,6 +113,5 @@ WIN_COMBINATIONS = [
       puts "Cat's Game!"
     end
   end
-=======
         input = gets
   end
