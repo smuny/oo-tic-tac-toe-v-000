@@ -46,7 +46,7 @@ WIN_COMBINATIONS = [
           return true
       end
    end
-   def turn_count)
+   def turn_count
           counter = 0
           @board.each do |element| 
         if element == "X" || element == "O"
