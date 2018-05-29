@@ -39,7 +39,13 @@ WIN_COMBINATIONS = [
           return true
       end 
    end
-    
+   def valid_move?(index)
+        if @board[index] == "X" || @board[index] == "O" || !index.between?(0,8)
+          return false
+        else
+          return true
+      end
+   end
       
       
 end
