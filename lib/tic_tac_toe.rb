@@ -28,7 +28,17 @@ WIN_COMBINATIONS = [
    def move(index, current_player)
           @board[index] = current_player
    end
-   
+   def position_taken?(board, index)
+        if board[index] == " "
+          return false
+        elsif board[index] == ""
+          return false
+        elsif board[index] == nil
+          return false
+        else 
+          return true
+      end 
+   end
     
       
       
