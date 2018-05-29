@@ -104,7 +104,7 @@ WIN_COMBINATIONS = [
       end
    end
    def play
-     <<<<<<< HEAD
+<<<<<<< HEAD
       until over?
       turn
     end
