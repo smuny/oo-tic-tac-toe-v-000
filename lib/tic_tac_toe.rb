@@ -113,5 +113,4 @@ WIN_COMBINATIONS = [
       puts "Cat's Game!"
     end
   end
-        input = gets
-  end
+      
