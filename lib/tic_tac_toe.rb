@@ -96,20 +96,20 @@ WIN_COMBINATIONS = [
       won? || draw?
    end
     
-   def winner
-        if won?
-          index = won?[1]
-          @board[index]
-        else nil
-      end
-   end
-   def play
-      until over?
+  def winner
+    if won?
+      index = won?[1]
+      @board[index]
+    else nil
+    end
+  end
+  def play
+    until over?
       turn
     end
     if won?
       puts "Congratulations #{winner}!"
-      elsif draw?
+    elsif draw?
       puts "Cat's Game!"
     end
   end
