@@ -84,7 +84,25 @@ WIN_COMBINATIONS = [
         end
       end
       false
-    end
+   end
+   def full?
+       @board.all?{  |space| space == "X" || space == "O" } end
+    
+   def draw?
+        full? && !won?
+   end
+    
+   def over?
+      won? || draw?
+   end
+    
+   def winner
+        if won?
+          index = won?[1]
+          @board[index]
+        else nil
+      end
+   end
    
 end
       
