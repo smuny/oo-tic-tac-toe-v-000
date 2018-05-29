@@ -112,3 +112,6 @@ WIN_COMBINATIONS = [
       elsif draw?
       puts "Cat's Game!"
     end
+  end
+        input = gets
+  end
