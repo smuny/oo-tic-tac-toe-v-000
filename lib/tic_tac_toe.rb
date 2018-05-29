@@ -115,6 +115,5 @@ WIN_COMBINATIONS = [
   end
       input = gets
   end
-end
       
       
